@@ -2,6 +2,15 @@ import React from "react";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import '../App.css';
+import king1 from "./../images/desert-king1.png";
+import king2 from "./../images/desert-king2.png";
+import king3 from "./../images/desert-king3.png";
+import king4 from "./../images/desert-king4.png";
+import king5 from "./../images/desert-king5.png";
+import king6 from "./../images/desert-king6.png";
+import king7 from "./../images/desert-king7.png";
+import king8 from "./../images/desert-king8.png";
+import star from "./../images/star.png";
 
 export function Place () {
     return (
