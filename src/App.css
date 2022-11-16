@@ -8,6 +8,10 @@
   font-family:'Red Rose', cursive;
 }
 
+img {
+  max-width: 100%;
+}
+
 .header-section {
     max-width: 1300px;
     width: 85%;
@@ -29,7 +33,22 @@
   /* align-items: flex-start; */
   cursor: pointer;
   color:#434343
-  
+}
+
+.header-list ul li {
+  color:#434343
+}
+
+.header-list ul li:hover {
+  color: #A02279
+}
+
+.place-stay {
+  color: #434343;
+}
+
+.place-stay:hover {
+  color: #A02279;
 }
 
 .header-button {
@@ -127,6 +146,9 @@ h1 span {
   cursor: pointer;
 }
 
+.coins-section {
+
+}
 
 .coins {
   display: flex;
@@ -157,6 +179,7 @@ h1 span {
 .location-container {
   display: flex;
   flex-wrap: wrap;
+  /* flex: 25% 1; */
   /* justify-content: space-between; */
   gap: 1.5rem;
   align-items: center;
@@ -172,7 +195,7 @@ h1 span {
 }
 
 .king1 {
-  width: 260px;
+  width: 100%;
 }
 
 .location-text {
@@ -326,6 +349,10 @@ h1 span {
   color: #333333;
 }
 
+.close img {
+  cursor: pointer;
+}
+
 .modal-body {
   padding: 2rem;
 }
@@ -369,8 +396,36 @@ h1 span {
 }
 
 .top-container {
-    display: flex;
-    justify-content: space-between;
     margin-top: 7.5rem;
-    align-items: center;
+    /* text-align: center; */
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4.063rem;
+}
+
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 3rem;
+}
+
+.list-dropdown {
+  display: none;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 10.0625rem;
+  cursor: pointer;
+  border: 1px solid #d7d7d7;
+  border-radius: 0.5rem;
+  padding: 0.875rem;
 }

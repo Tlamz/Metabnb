@@ -12,6 +12,7 @@ import king5 from "./../images/desert-king5.png";
 import king6 from "./../images/desert-king6.png";
 import king7 from "./../images/desert-king7.png";
 import king8 from "./../images/desert-king8.png";
+import king  from "./../images/king.jpg";
 import star from "./../images/star.png";
 import threeimg from "./../images/three-in-one-img.png";
 import { Footer } from '../components/Footer';
@@ -69,7 +70,7 @@ export function Home () {
             <div className="location-container">
               <div className="location-boxes">
                 <div>
-                  <img className="king1" src={king1} alt="" />
+                  <img className="king1" src={king} alt="" />
                 </div>
                 <div className="location-text">
                   <p>Desert King</p>
@@ -85,7 +86,7 @@ export function Home () {
               </div>
               <div className="location-boxes">
                 <div>
-                  <img src={king2} alt="" />
+                  <img className="king1" src={king2} alt="" />
                 </div>
                 <div className="location-text">
                   <p>Desert King</p>
@@ -101,7 +102,7 @@ export function Home () {
               </div>
               <div className="location-boxes">
                 <div>
-                  <img src={king3} alt="" />
+                  <img className="king1" src={king3} alt="" />
                 </div>
                 <div className="location-text">
                   <p>Desert King</p>
@@ -117,7 +118,7 @@ export function Home () {
               </div>
               <div className="location-boxes">
                 <div>
-                  <img src={king4} alt="" />
+                  <img className="king1" src={king4} alt="" />
                 </div>
                 <div className="location-text">
                   <p>Desert King</p>
@@ -133,7 +134,7 @@ export function Home () {
               </div>
               <div className="location-boxes">
                 <div>
-                  <img src={king5} alt="" />
+                  <img className="king1" src={king5} alt="" />
                 </div>
                 <div className="location-text">
                   <p>Desert King</p>
@@ -149,7 +150,7 @@ export function Home () {
               </div>
               <div className="location-boxes">
                 <div>
-                  <img src={king6} alt="" />
+                  <img className="king1" src={king6} alt="" />
                 </div>
                 <div className="location-text">
                   <p>Desert King</p>
@@ -165,7 +166,7 @@ export function Home () {
               </div>
               <div className="location-boxes">
                 <div>
-                  <img src={king7} alt="" />
+                  <img className="king1" src={king7} alt="" />
                 </div>
                 <div className="location-text">
                   <p>Desert King</p>
@@ -181,7 +182,7 @@ export function Home () {
               </div>
               <div className="location-boxes">
                 <div>
-                  <img src={king8} alt="" />
+                  <img className="king1" src={king8} alt="" />
                 </div>
                 <div className="location-text">
                   <p>Desert King</p>

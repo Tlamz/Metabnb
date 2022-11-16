@@ -25,32 +25,34 @@ export function Place () {
     return (
       <div>
         <Header />
-        <div className="top-section">
-            <div className="top-container">
-                <ul className="nav-list">
-                    <li>Restaurant</li>
-                    <li>Cottage</li>
-                    <li>Castle</li>
-                    <li>fantast city</li>
-                    <li>beach</li>
-                    <li>Carbins</li>
-                    <li>Off-grid</li>
-                    <li>Farm</li>
-                </ul>
-                <select className="list-dropdown" name="location" id="">
-                    <option>All</option>
-                    <option value="Restaurant">Restaurant</option>
-                    <option value="Cottage">Cottage</option>
-                    <option value="Castle">Castle</option>
-                    <option value="Fantast city">fantast city</option>
-                    <option value="beach">beach</option>
-                    <option value="carbin">Carbins</option>
-                    <option value="off-grid">Off-grid</option>
-                    <option value="Farm">Farm</option>
-                </select>
-                <div className="location">
-                    <p>Location</p>
-                    <img src={setting} alt="" />
+        <div className="top-container">
+            <div className="top-section">
+                <div className="nav-flex">
+                    <ul className="nav-list">
+                        <li>Restaurant</li>
+                        <li>Cottage</li>
+                        <li>Castle</li>
+                        <li>fantast city</li>
+                        <li>beach</li>
+                        <li>Carbins</li>
+                        <li>Off-grid</li>
+                        <li>Farm</li>
+                    </ul>
+                    <select className="list-dropdown" name="location" id="">
+                        <option>All</option>
+                        <option value="Restaurant">Restaurant</option>
+                        <option value="Cottage">Cottage</option>
+                        <option value="Castle">Castle</option>
+                        <option value="Fantast city">fantast city</option>
+                        <option value="beach">beach</option>
+                        <option value="carbin">Carbins</option>
+                        <option value="off-grid">Off-grid</option>
+                        <option value="Farm">Farm</option>
+                    </select>
+                    <div className="location">
+                        <p>Location</p>
+                        <img src={setting} alt="" />
+                    </div>
                 </div>
             </div>
         </div>

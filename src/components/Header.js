@@ -18,18 +18,27 @@ export function Header() {
               <ul>
                 <li>Home</li>
                 <li>
-                  <Link to="/place">Place to stay</Link>
+                  <Link to="/place" className="place-stay">
+                    Place to stay
+                  </Link>
                 </li>
                 <li>NFTs</li>
                 <li>Community</li>
               </ul>
             </div>
             <div>
-              <button className="header-button" onClick={() => {setShowModal(true)}}>Connect wallet</button>
+              <button
+                className="header-button"
+                onClick={() => {
+                  setShowModal(true);
+                }}
+              >
+                Connect wallet
+              </button>
             </div>
           </div>
         </div>
-        {showModal && <Modal closeModal={setShowModal}/>}
+        {showModal && <Modal closeModal={setShowModal} />}
       </header>
     );
 }
