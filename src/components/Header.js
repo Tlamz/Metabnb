@@ -1,32 +1,29 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "./../images/logo.png"
 
 
 export function Header() {
     return (
-      <header>
-        <div className="header-wrapper">
-          <div>
-            <img src={logo} alt="logo" />
-          </div>
-          <div className="header-list">
-            <ul>
-              <li>Home</li>
-              <li>Place to stay</li>
-              <li>NFTs</li>
-              <li>Community</li>
-            </ul>
-          </div>
-          <div>
-            <button className="header-button">Connect wallet</button>
-          </div>
-        </div>
-        {/* <div>
-                <p>HNG Internship 9 Frontend Task</p>
+      <header className="header-wrapper">
+        <div className= "header-section">
+          <div className="header-flex">
+            <div>
+              <img src={logo} alt="logo" />
+            </div>
+            <div className="header-list">
+              <ul>
+                <li>Home</li>
+                <li><Link to="/place">Place to stay</Link></li>
+                <li>NFTs</li>
+                <li>Community</li>
+              </ul>
             </div>
             <div>
-                <img src={picture2} alt="Ingressive4Good" />
-            </div> */}
+              <button className="header-button">Connect wallet</button>
+            </div>
+          </div>
+        </div>
       </header>
     );
 }
