@@ -28,6 +28,7 @@
   font-size: 1.25rem;
   /* align-items: flex-start; */
   cursor: pointer;
+  color:#434343
   
 }
 
@@ -288,4 +289,70 @@ h1 span {
   margin-top: 3.5rem;
   color: #F1F3F9;
 
+}
+
+/* modal */
+
+.modal-background {
+  background-color: rgba(64, 64, 64, 0.3);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modal-container {
+  background-color: #ffffff;
+  /* width: min(100%,37.5rem); */
+  border: 0;
+  border-radius: 1rem;
+  padding: 0;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 0.125rem solid #CFD8DC;
+}
+
+.modal-header h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 30px;
+  color: #333333;
+}
+
+.modal-body {
+  padding: 2rem;
+}
+
+.preferred-wallet {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 20px;
+  color: #333333;
+}
+
+.link-btn {
+  padding: 0.75rem 1.25rem;
+  border: 0.125rem solid #CFD8DC;
+  border-radius: 0.75rem;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.link-btn p {
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+
+.link-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
