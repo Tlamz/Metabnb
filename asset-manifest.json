@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Metabnb/static/css/main.ea33a62b.css",
+    "main.js": "/Metabnb/static/js/main.2bd12adb.js",
+    "static/js/787.5186970a.chunk.js": "/Metabnb/static/js/787.5186970a.chunk.js",
+    "static/media/three-in-one-img.png": "/Metabnb/static/media/three-in-one-img.a8af7e0fa95161e46002.png",
+    "static/media/hero-image.png": "/Metabnb/static/media/hero-image.9bafa18b654dfbd5d908.png",
+    "static/media/desert-king1.png": "/Metabnb/static/media/desert-king1.7834fffc746d252b1a7e.png",
+    "static/media/desert-king6.png": "/Metabnb/static/media/desert-king6.b5e1fc9b07ac9ab779d6.png",
+    "static/media/desert-king3.png": "/Metabnb/static/media/desert-king3.655f8081aca07ab2db86.png",
+    "static/media/desert-king8.png": "/Metabnb/static/media/desert-king8.4f380bb1d1355ebbba5c.png",
+    "static/media/desert-king4.png": "/Metabnb/static/media/desert-king4.e74cc99dc65c4d9245ef.png",
+    "static/media/desert-king2.png": "/Metabnb/static/media/desert-king2.17473551e142b32dd77e.png",
+    "static/media/desert-king5.png": "/Metabnb/static/media/desert-king5.c19b05332b1e52fb2955.png",
+    "static/media/desert-king7.png": "/Metabnb/static/media/desert-king7.e5836cc090a6461cff22.png",
+    "static/media/metamask.svg": "/Metabnb/static/media/metamask.fb52934db13925cb94877c2a07d73fe9.svg",
+    "static/media/opensea.svg": "/Metabnb/static/media/opensea.cfd1ca6b48614b8e5c1fac5ac3688b16.svg",
+    "static/media/mb-token.svg": "/Metabnb/static/media/mb-token.6a2427bee120a728c62147161737f2d5.svg",
+    "static/media/logo2.svg": "/Metabnb/static/media/logo2.69a97a8cf7498387c85734f13405b3b3.svg",
+    "index.html": "/Metabnb/index.html",
+    "main.ea33a62b.css.map": "/Metabnb/static/css/main.ea33a62b.css.map",
+    "main.2bd12adb.js.map": "/Metabnb/static/js/main.2bd12adb.js.map",
+    "787.5186970a.chunk.js.map": "/Metabnb/static/js/787.5186970a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea33a62b.css",
+    "static/js/main.2bd12adb.js"
+  ]
+}
