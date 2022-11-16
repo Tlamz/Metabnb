@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Metabnb/static/css/main.c96e2cf5.css",
-    "main.js": "/Metabnb/static/js/main.a0fe7c63.js",
+    "main.css": "/Metabnb/static/css/main.dcb1fd4e.css",
+    "main.js": "/Metabnb/static/js/main.e3a00fc0.js",
     "static/js/787.5186970a.chunk.js": "/Metabnb/static/js/787.5186970a.chunk.js",
     "static/media/three-in-one-img.png": "/Metabnb/static/media/three-in-one-img.a8af7e0fa95161e46002.png",
     "static/media/hero-image.png": "/Metabnb/static/media/hero-image.9bafa18b654dfbd5d908.png",
@@ -16,6 +16,7 @@
     "static/media/desert-king4.png": "/Metabnb/static/media/desert-king4.e74cc99dc65c4d9245ef.png",
     "static/media/desert-king14.png": "/Metabnb/static/media/desert-king14.1bca09f474dfc0e7a6c8.png",
     "static/media/desert-king15.png": "/Metabnb/static/media/desert-king15.015af419518724a04230.png",
+    "static/media/king.jpg": "/Metabnb/static/media/king.621163d8a7874eabce38.jpg",
     "static/media/desert-king2.png": "/Metabnb/static/media/desert-king2.17473551e142b32dd77e.png",
     "static/media/desert-king9.png": "/Metabnb/static/media/desert-king9.775fec54fd20ad4e7d51.png",
     "static/media/desert-king5.png": "/Metabnb/static/media/desert-king5.c19b05332b1e52fb2955.png",
@@ -27,12 +28,12 @@
     "static/media/logo2.svg": "/Metabnb/static/media/logo2.69a97a8cf7498387c85734f13405b3b3.svg",
     "static/media/setting-5.svg": "/Metabnb/static/media/setting-5.1ad45f3268b2970899dd50fd7d8eca9f.svg",
     "index.html": "/Metabnb/index.html",
-    "main.c96e2cf5.css.map": "/Metabnb/static/css/main.c96e2cf5.css.map",
-    "main.a0fe7c63.js.map": "/Metabnb/static/js/main.a0fe7c63.js.map",
+    "main.dcb1fd4e.css.map": "/Metabnb/static/css/main.dcb1fd4e.css.map",
+    "main.e3a00fc0.js.map": "/Metabnb/static/js/main.e3a00fc0.js.map",
     "787.5186970a.chunk.js.map": "/Metabnb/static/js/787.5186970a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c96e2cf5.css",
-    "static/js/main.a0fe7c63.js"
+    "static/css/main.dcb1fd4e.css",
+    "static/js/main.e3a00fc0.js"
   ]
 }
