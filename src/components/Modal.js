@@ -2,7 +2,7 @@ import React from 'react';
 import closebtn from './../images/close-button.png';
 import metamask from './../images/metamask-img.png';
 import arrow from './../images/arrow.png';
-import walletconnect from './../images/wallet-Connect-img.png';
+import walletconnect from './../images/wallet-connect-img.png';
 // import line from './../images/line.png';
 
 export function Modal({ closeModal }) {

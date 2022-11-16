@@ -10,15 +10,117 @@ import king5 from "./../images/desert-king5.png";
 import king6 from "./../images/desert-king6.png";
 import king7 from "./../images/desert-king7.png";
 import king8 from "./../images/desert-king8.png";
+import king9 from "./../images/desert-king9.png";
+import king10 from "./../images/desert-king10.png";
+import king11 from "./../images/desert-king11.png";
+import king12 from "./../images/desert-king12.png";
+import king13 from "./../images/desert-king13.png";
+import king14 from "./../images/desert-king14.png";
+import king15 from "./../images/desert-king15.png";
+import king16 from "./../images/desert-king16.png";
 import star from "./../images/star.png";
+import setting from "./../images/setting-5.svg";
 
 export function Place () {
     return (
       <div>
         <Header />
+        <div className="top-section">
+            <div className="top-container">
+                <ul className="nav-list">
+                    <li>Restaurant</li>
+                    <li>Cottage</li>
+                    <li>Castle</li>
+                    <li>fantast city</li>
+                    <li>beach</li>
+                    <li>Carbins</li>
+                    <li>Off-grid</li>
+                    <li>Farm</li>
+                </ul>
+                <select className="list-dropdown" name="location" id="">
+                    <option>All</option>
+                    <option value="Restaurant">Restaurant</option>
+                    <option value="Cottage">Cottage</option>
+                    <option value="Castle">Castle</option>
+                    <option value="Fantast city">fantast city</option>
+                    <option value="beach">beach</option>
+                    <option value="carbin">Carbins</option>
+                    <option value="off-grid">Off-grid</option>
+                    <option value="Farm">Farm</option>
+                </select>
+                <div className="location">
+                    <p>Location</p>
+                    <img src={setting} alt="" />
+                </div>
+            </div>
+        </div>
         <div className="location-wrapper-main">
             <div className="location-section">
                 <div className="location-container">
+                    <div className="location-boxes">
+                        <div>
+                        <img src={king5} alt="" />
+                        </div>
+                        <div className="location-text">
+                        <p>Desert King</p>
+                        <p className="bold-text">1MBT per night</p>
+                        </div>
+                        <div className="location-text">
+                        <p>2345km away</p>
+                        <p>available for 2weeks stay</p>
+                        </div>
+                        <div>
+                        <img className="star" src={star} alt="" />
+                        </div>
+                    </div>
+                    <div className="location-boxes">
+                        <div>
+                        <img src={king6} alt="" />
+                        </div>
+                        <div className="location-text">
+                        <p>Desert King</p>
+                        <p className="bold-text">1MBT per night</p>
+                        </div>
+                        <div className="location-text">
+                        <p>2345km away</p>
+                        <p>available for 2weeks stay</p>
+                        </div>
+                        <div>
+                        <img className="star" src={star} alt="" />
+                        </div>
+                    </div>
+                    <div className="location-boxes">
+                        <div>
+                        <img src={king7} alt="" />
+                        </div>
+                        <div className="location-text">
+                        <p>Desert King</p>
+                        <p className="bold-text">1MBT per night</p>
+                        </div>
+                        <div className="location-text">
+                        <p>2345km away</p>
+                        <p>available for 2weeks stay</p>
+                        </div>
+                        <div>
+                        <img className="star" src={star} alt="" />
+                        </div>
+                    </div>
+                    <div className="location-boxes">
+                        <div>
+                        <img src={king8} alt="" />
+                        </div>
+                        <div className="location-text">
+                        <p>Desert King</p>
+                        <p className="bold-text">1MBT per night</p>
+                        </div>
+                        <div className="location-text">
+                        <p>2345km away</p>
+                        <p>available for 2weeks stay</p>
+                        </div>
+                        <div>
+                        <img className="star" src={star} alt="" />
+                        </div>
+                    </div>
                     <div className="location-boxes">
                         <div>
                         <img className="king1" src={king1} alt="" />
@@ -85,7 +187,7 @@ export function Place () {
                     </div>
                     <div className="location-boxes">
                         <div>
-                        <img src={king5} alt="" />
+                        <img src={king9} alt="" />
                         </div>
                         <div className="location-text">
                         <p>Desert King</p>
@@ -101,7 +203,7 @@ export function Place () {
                     </div>
                     <div className="location-boxes">
                         <div>
-                        <img src={king6} alt="" />
+                        <img src={king10} alt="" />
                         </div>
                         <div className="location-text">
                         <p>Desert King</p>
@@ -117,7 +219,7 @@ export function Place () {
                     </div>
                     <div className="location-boxes">
                         <div>
-                        <img src={king7} alt="" />
+                        <img src={king11} alt="" />
                         </div>
                         <div className="location-text">
                         <p>Desert King</p>
@@ -133,7 +235,71 @@ export function Place () {
                     </div>
                     <div className="location-boxes">
                         <div>
-                        <img src={king8} alt="" />
+                        <img src={king12} alt="" />
+                        </div>
+                        <div className="location-text">
+                        <p>Desert King</p>
+                        <p className="bold-text">1MBT per night</p>
+                        </div>
+                        <div className="location-text">
+                        <p>2345km away</p>
+                        <p>available for 2weeks stay</p>
+                        </div>
+                        <div>
+                        <img className="star" src={star} alt="" />
+                        </div>
+                    </div>
+                    <div className="location-boxes">
+                        <div>
+                        <img src={king13} alt="" />
+                        </div>
+                        <div className="location-text">
+                        <p>Desert King</p>
+                        <p className="bold-text">1MBT per night</p>
+                        </div>
+                        <div className="location-text">
+                        <p>2345km away</p>
+                        <p>available for 2weeks stay</p>
+                        </div>
+                        <div>
+                        <img className="star" src={star} alt="" />
+                        </div>
+                    </div>
+                    <div className="location-boxes">
+                        <div>
+                        <img src={king14} alt="" />
+                        </div>
+                        <div className="location-text">
+                        <p>Desert King</p>
+                        <p className="bold-text">1MBT per night</p>
+                        </div>
+                        <div className="location-text">
+                        <p>2345km away</p>
+                        <p>available for 2weeks stay</p>
+                        </div>
+                        <div>
+                        <img className="star" src={star} alt="" />
+                        </div>
+                    </div>
+                    <div className="location-boxes">
+                        <div>
+                        <img src={king15} alt="" />
+                        </div>
+                        <div className="location-text">
+                        <p>Desert King</p>
+                        <p className="bold-text">1MBT per night</p>
+                        </div>
+                        <div className="location-text">
+                        <p>2345km away</p>
+                        <p>available for 2weeks stay</p>
+                        </div>
+                        <div>
+                        <img className="star" src={star} alt="" />
+                        </div>
+                    </div>
+                    <div className="location-boxes">
+                        <div>
+                        <img src={king16} alt="" />
                         </div>
                         <div className="location-text">
                         <p>Desert King</p>

@@ -304,8 +304,8 @@ h1 span {
 
 .modal-container {
   background-color: #ffffff;
-  width: 50%;
-  margin: 16rem auto;
+  width: 40%;
+  margin: 14rem auto;
   border: 0;
   border-radius: 1rem;
   padding: 0;
@@ -358,4 +358,19 @@ h1 span {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+/* place top section */
+
+.top-section {
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 85%;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7.5rem;
+    align-items: center;
 }
