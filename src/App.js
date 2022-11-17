@@ -10,7 +10,7 @@ export function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/Metabnb" element={<Home />} />
+          <Route index element={<Home />} />
           <Route path="/place" element={<Place />} />
         </Routes>
       </BrowserRouter>

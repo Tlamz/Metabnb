@@ -8,7 +8,7 @@ import { Modal } from "./Modal";
 export function Header() {
   const [showModal, setShowModal] = useState(false)
     return (
-      <header className="header-wrapper">
+      <>
         <div className="header-section">
           <div className="header-flex">
             <div>
@@ -39,6 +39,6 @@ export function Header() {
           </div>
         </div>
         {showModal && <Modal closeModal={setShowModal} />}
-      </header>
+      </>
     );
 }

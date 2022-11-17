@@ -24,301 +24,305 @@ import setting from "./../images/setting-5.svg";
 export function Place () {
     return (
       <div>
-        <Header />
+        <header className="header-wrapper">
+          <Header />
+        </header>
         <div className="top-container">
-            <div className="top-section">
-                <div className="nav-flex">
-                    <ul className="nav-list">
-                        <li>Restaurant</li>
-                        <li>Cottage</li>
-                        <li>Castle</li>
-                        <li>fantast city</li>
-                        <li>beach</li>
-                        <li>Carbins</li>
-                        <li>Off-grid</li>
-                        <li>Farm</li>
-                    </ul>
-                    <select className="list-dropdown" name="location" id="">
-                        <option>All</option>
-                        <option value="Restaurant">Restaurant</option>
-                        <option value="Cottage">Cottage</option>
-                        <option value="Castle">Castle</option>
-                        <option value="Fantast city">fantast city</option>
-                        <option value="beach">beach</option>
-                        <option value="carbin">Carbins</option>
-                        <option value="off-grid">Off-grid</option>
-                        <option value="Farm">Farm</option>
-                    </select>
-                    <div className="location">
-                        <p>Location</p>
-                        <img src={setting} alt="" />
-                    </div>
-                </div>
+          <div className="top-section">
+            <div className="nav-flex">
+              <ul className="nav-list">
+                <li>Restaurant</li>
+                <li>Cottage</li>
+                <li>Castle</li>
+                <li>fantast city</li>
+                <li>beach</li>
+                <li>Carbins</li>
+                <li>Off-grid</li>
+                <li>Farm</li>
+              </ul>
+              <select className="list-dropdown" name="location" id="">
+                <option>All</option>
+                <option value="Restaurant">Restaurant</option>
+                <option value="Cottage">Cottage</option>
+                <option value="Castle">Castle</option>
+                <option value="Fantast city">fantast city</option>
+                <option value="beach">beach</option>
+                <option value="carbin">Carbins</option>
+                <option value="off-grid">Off-grid</option>
+                <option value="Farm">Farm</option>
+              </select>
+              <div className="location">
+                <input type="text" placeholder="Location" />
+                <span>
+                  <img src={setting} alt="" />
+                </span>
+              </div>
             </div>
+          </div>
         </div>
         <div className="location-wrapper-main">
-            <div className="location-section">
-                <div className="location-container">
-                    <div className="location-boxes">
-                        <div>
-                        <img src={king5} alt="" />
-                        </div>
-                        <div className="location-text">
-                        <p>Desert King</p>
-                        <p className="bold-text">1MBT per night</p>
-                        </div>
-                        <div className="location-text">
-                        <p>2345km away</p>
-                        <p>available for 2weeks stay</p>
-                        </div>
-                        <div>
-                        <img className="star" src={star} alt="" />
-                        </div>
-                    </div>
-                    <div className="location-boxes">
-                        <div>
-                        <img src={king6} alt="" />
-                        </div>
-                        <div className="location-text">
-                        <p>Desert King</p>
-                        <p className="bold-text">1MBT per night</p>
-                        </div>
-                        <div className="location-text">
-                        <p>2345km away</p>
-                        <p>available for 2weeks stay</p>
-                        </div>
-                        <div>
-                        <img className="star" src={star} alt="" />
-                        </div>
-                    </div>
-                    <div className="location-boxes">
-                        <div>
-                        <img src={king7} alt="" />
-                        </div>
-                        <div className="location-text">
-                        <p>Desert King</p>
-                        <p className="bold-text">1MBT per night</p>
-                        </div>
-                        <div className="location-text">
-                        <p>2345km away</p>
-                        <p>available for 2weeks stay</p>
-                        </div>
-                        <div>
-                        <img className="star" src={star} alt="" />
-                        </div>
-                    </div>
-                    <div className="location-boxes">
-                        <div>
-                        <img src={king8} alt="" />
-                        </div>
-                        <div className="location-text">
-                        <p>Desert King</p>
-                        <p className="bold-text">1MBT per night</p>
-                        </div>
-                        <div className="location-text">
-                        <p>2345km away</p>
-                        <p>available for 2weeks stay</p>
-                        </div>
-                        <div>
-                        <img className="star" src={star} alt="" />
-                        </div>
-                    </div>
-                    <div className="location-boxes">
-                        <div>
-                        <img className="king1" src={king1} alt="" />
-                        </div>
-                        <div className="location-text">
-                        <p>Desert King</p>
-                        <p className="bold-text">1MBT per night</p>
-                        </div>
-                        <div className="location-text">
-                        <p>2345km away</p>
-                        <p>available for 2weeks stay</p>
-                        </div>
-                        <div>
-                        <img className="star" src={star} alt="" />
-                        </div>
-                    </div>
-                    <div className="location-boxes">
-                        <div>
-                        <img src={king2} alt="" />
-                        </div>
-                        <div className="location-text">
-                        <p>Desert King</p>
-                        <p className="bold-text">1MBT per night</p>
-                        </div>
-                        <div className="location-text">
-                        <p>2345km away</p>
-                        <p>available for 2weeks stay</p>
-                        </div>
-                        <div>
-                        <img className="star" src={star} alt="" />
-                        </div>
-                    </div>
-                    <div className="location-boxes">
-                        <div>
-                        <img src={king3} alt="" />
-                        </div>
-                        <div className="location-text">
-                        <p>Desert King</p>
-                        <p className="bold-text">1MBT per night</p>
-                        </div>
-                        <div className="location-text">
-                        <p>2345km away</p>
-                        <p>available for 2weeks stay</p>
-                        </div>
-                        <div>
-                        <img className="star" src={star} alt="" />
-                        </div>
-                    </div>
-                    <div className="location-boxes">
-                        <div>
-                        <img src={king4} alt="" />
-                        </div>
-                        <div className="location-text">
-                        <p>Desert King</p>
-                        <p className="bold-text">1MBT per night</p>
-                        </div>
-                        <div className="location-text">
-                        <p>2345km away</p>
-                        <p>available for 2weeks stay</p>
-                        </div>
-                        <div>
-                        <img className="star" src={star} alt="" />
-                        </div>
-                    </div>
-                    <div className="location-boxes">
-                        <div>
-                        <img src={king9} alt="" />
-                        </div>
-                        <div className="location-text">
-                        <p>Desert King</p>
-                        <p className="bold-text">1MBT per night</p>
-                        </div>
-                        <div className="location-text">
-                        <p>2345km away</p>
-                        <p>available for 2weeks stay</p>
-                        </div>
-                        <div>
-                        <img className="star" src={star} alt="" />
-                        </div>
-                    </div>
-                    <div className="location-boxes">
-                        <div>
-                        <img src={king10} alt="" />
-                        </div>
-                        <div className="location-text">
-                        <p>Desert King</p>
-                        <p className="bold-text">1MBT per night</p>
-                        </div>
-                        <div className="location-text">
-                        <p>2345km away</p>
-                        <p>available for 2weeks stay</p>
-                        </div>
-                        <div>
-                        <img className="star" src={star} alt="" />
-                        </div>
-                    </div>
-                    <div className="location-boxes">
-                        <div>
-                        <img src={king11} alt="" />
-                        </div>
-                        <div className="location-text">
-                        <p>Desert King</p>
-                        <p className="bold-text">1MBT per night</p>
-                        </div>
-                        <div className="location-text">
-                        <p>2345km away</p>
-                        <p>available for 2weeks stay</p>
-                        </div>
-                        <div>
-                        <img className="star" src={star} alt="" />
-                        </div>
-                    </div>
-                    <div className="location-boxes">
-                        <div>
-                        <img src={king12} alt="" />
-                        </div>
-                        <div className="location-text">
-                        <p>Desert King</p>
-                        <p className="bold-text">1MBT per night</p>
-                        </div>
-                        <div className="location-text">
-                        <p>2345km away</p>
-                        <p>available for 2weeks stay</p>
-                        </div>
-                        <div>
-                        <img className="star" src={star} alt="" />
-                        </div>
-                    </div>
-                    <div className="location-boxes">
-                        <div>
-                        <img src={king13} alt="" />
-                        </div>
-                        <div className="location-text">
-                        <p>Desert King</p>
-                        <p className="bold-text">1MBT per night</p>
-                        </div>
-                        <div className="location-text">
-                        <p>2345km away</p>
-                        <p>available for 2weeks stay</p>
-                        </div>
-                        <div>
-                        <img className="star" src={star} alt="" />
-                        </div>
-                    </div>
-                    <div className="location-boxes">
-                        <div>
-                        <img src={king14} alt="" />
-                        </div>
-                        <div className="location-text">
-                        <p>Desert King</p>
-                        <p className="bold-text">1MBT per night</p>
-                        </div>
-                        <div className="location-text">
-                        <p>2345km away</p>
-                        <p>available for 2weeks stay</p>
-                        </div>
-                        <div>
-                        <img className="star" src={star} alt="" />
-                        </div>
-                    </div>
-                    <div className="location-boxes">
-                        <div>
-                        <img src={king15} alt="" />
-                        </div>
-                        <div className="location-text">
-                        <p>Desert King</p>
-                        <p className="bold-text">1MBT per night</p>
-                        </div>
-                        <div className="location-text">
-                        <p>2345km away</p>
-                        <p>available for 2weeks stay</p>
-                        </div>
-                        <div>
-                        <img className="star" src={star} alt="" />
-                        </div>
-                    </div>
-                    <div className="location-boxes">
-                        <div>
-                        <img src={king16} alt="" />
-                        </div>
-                        <div className="location-text">
-                        <p>Desert King</p>
-                        <p className="bold-text">1MBT per night</p>
-                        </div>
-                        <div className="location-text">
-                        <p>2345km away</p>
-                        <p>available for 2weeks stay</p>
-                        </div>
-                        <div>
-                        <img className="star" src={star} alt="" />
-                        </div>
-                    </div>
+          <div className="location-section">
+            <div className="location-container">
+              <div className="location-boxes">
+                <div>
+                  <img className="king1" src={king5} alt="" />
                 </div>
+                <div className="location-text">
+                  <p>Desert King</p>
+                  <p className="bold-text">1MBT per night</p>
+                </div>
+                <div className="location-text">
+                  <p>2345km away</p>
+                  <p>available for 2weeks stay</p>
+                </div>
+                <div>
+                  <img className="star" src={star} alt="" />
+                </div>
+              </div>
+              <div className="location-boxes">
+                <div>
+                  <img className="king1" src={king6} alt="" />
+                </div>
+                <div className="location-text">
+                  <p>Desert King</p>
+                  <p className="bold-text">1MBT per night</p>
+                </div>
+                <div className="location-text">
+                  <p>2345km away</p>
+                  <p>available for 2weeks stay</p>
+                </div>
+                <div>
+                  <img className="star" src={star} alt="" />
+                </div>
+              </div>
+              <div className="location-boxes">
+                <div>
+                  <img className="king1" src={king7} alt="" />
+                </div>
+                <div className="location-text">
+                  <p>Desert King</p>
+                  <p className="bold-text">1MBT per night</p>
+                </div>
+                <div className="location-text">
+                  <p>2345km away</p>
+                  <p>available for 2weeks stay</p>
+                </div>
+                <div>
+                  <img className="star" src={star} alt="" />
+                </div>
+              </div>
+              <div className="location-boxes">
+                <div>
+                  <img className="king1" src={king8} alt="" />
+                </div>
+                <div className="location-text">
+                  <p>Desert King</p>
+                  <p className="bold-text">1MBT per night</p>
+                </div>
+                <div className="location-text">
+                  <p>2345km away</p>
+                  <p>available for 2weeks stay</p>
+                </div>
+                <div>
+                  <img className="star" src={star} alt="" />
+                </div>
+              </div>
+              <div className="location-boxes">
+                <div>
+                  <img className="king1" src={king1} alt="" />
+                </div>
+                <div className="location-text">
+                  <p>Desert King</p>
+                  <p className="bold-text">1MBT per night</p>
+                </div>
+                <div className="location-text">
+                  <p>2345km away</p>
+                  <p>available for 2weeks stay</p>
+                </div>
+                <div>
+                  <img className="star" src={star} alt="" />
+                </div>
+              </div>
+              <div className="location-boxes">
+                <div>
+                  <img className="king1" src={king2} alt="" />
+                </div>
+                <div className="location-text">
+                  <p>Desert King</p>
+                  <p className="bold-text">1MBT per night</p>
+                </div>
+                <div className="location-text">
+                  <p>2345km away</p>
+                  <p>available for 2weeks stay</p>
+                </div>
+                <div>
+                  <img className="star" src={star} alt="" />
+                </div>
+              </div>
+              <div className="location-boxes">
+                <div>
+                  <img className="king1" src={king3} alt="" />
+                </div>
+                <div className="location-text">
+                  <p>Desert King</p>
+                  <p className="bold-text">1MBT per night</p>
+                </div>
+                <div className="location-text">
+                  <p>2345km away</p>
+                  <p>available for 2weeks stay</p>
+                </div>
+                <div>
+                  <img className="star" src={star} alt="" />
+                </div>
+              </div>
+              <div className="location-boxes">
+                <div>
+                  <img className="king1" src={king4} alt="" />
+                </div>
+                <div className="location-text">
+                  <p>Desert King</p>
+                  <p className="bold-text">1MBT per night</p>
+                </div>
+                <div className="location-text">
+                  <p>2345km away</p>
+                  <p>available for 2weeks stay</p>
+                </div>
+                <div>
+                  <img className="star" src={star} alt="" />
+                </div>
+              </div>
+              <div className="location-boxes">
+                <div>
+                  <img className="king1" src={king9} alt="" />
+                </div>
+                <div className="location-text">
+                  <p>Desert King</p>
+                  <p className="bold-text">1MBT per night</p>
+                </div>
+                <div className="location-text">
+                  <p>2345km away</p>
+                  <p>available for 2weeks stay</p>
+                </div>
+                <div>
+                  <img className="star" src={star} alt="" />
+                </div>
+              </div>
+              <div className="location-boxes">
+                <div>
+                  <img className="king1" src={king10} alt="" />
+                </div>
+                <div className="location-text">
+                  <p>Desert King</p>
+                  <p className="bold-text">1MBT per night</p>
+                </div>
+                <div className="location-text">
+                  <p>2345km away</p>
+                  <p>available for 2weeks stay</p>
+                </div>
+                <div>
+                  <img className="star" src={star} alt="" />
+                </div>
+              </div>
+              <div className="location-boxes">
+                <div>
+                  <img className="king1" src={king11} alt="" />
+                </div>
+                <div className="location-text">
+                  <p>Desert King</p>
+                  <p className="bold-text">1MBT per night</p>
+                </div>
+                <div className="location-text">
+                  <p>2345km away</p>
+                  <p>available for 2weeks stay</p>
+                </div>
+                <div>
+                  <img className="star" src={star} alt="" />
+                </div>
+              </div>
+              <div className="location-boxes">
+                <div>
+                  <img className="king1" src={king12} alt="" />
+                </div>
+                <div className="location-text">
+                  <p>Desert King</p>
+                  <p className="bold-text">1MBT per night</p>
+                </div>
+                <div className="location-text">
+                  <p>2345km away</p>
+                  <p>available for 2weeks stay</p>
+                </div>
+                <div>
+                  <img className="star" src={star} alt="" />
+                </div>
+              </div>
+              <div className="location-boxes">
+                <div>
+                  <img className="king1" src={king13} alt="" />
+                </div>
+                <div className="location-text">
+                  <p>Desert King</p>
+                  <p className="bold-text">1MBT per night</p>
+                </div>
+                <div className="location-text">
+                  <p>2345km away</p>
+                  <p>available for 2weeks stay</p>
+                </div>
+                <div>
+                  <img className="star" src={star} alt="" />
+                </div>
+              </div>
+              <div className="location-boxes">
+                <div>
+                  <img className="king1" src={king14} alt="" />
+                </div>
+                <div className="location-text">
+                  <p>Desert King</p>
+                  <p className="bold-text">1MBT per night</p>
+                </div>
+                <div className="location-text">
+                  <p>2345km away</p>
+                  <p>available for 2weeks stay</p>
+                </div>
+                <div>
+                  <img className="star" src={star} alt="" />
+                </div>
+              </div>
+              <div className="location-boxes">
+                <div>
+                  <img className="king1" src={king15} alt="" />
+                </div>
+                <div className="location-text">
+                  <p>Desert King</p>
+                  <p className="bold-text">1MBT per night</p>
+                </div>
+                <div className="location-text">
+                  <p>2345km away</p>
+                  <p>available for 2weeks stay</p>
+                </div>
+                <div>
+                  <img className="star" src={star} alt="" />
+                </div>
+              </div>
+              <div className="location-boxes">
+                <div>
+                  <img className="king1" src={king16} alt="" />
+                </div>
+                <div className="location-text">
+                  <p>Desert King</p>
+                  <p className="bold-text">1MBT per night</p>
+                </div>
+                <div className="location-text">
+                  <p>2345km away</p>
+                  <p>available for 2weeks stay</p>
+                </div>
+                <div>
+                  <img className="star" src={star} alt="" />
+                </div>
+              </div>
             </div>
+          </div>
         </div>
         <Footer />
       </div>
-    )
+    );
 }

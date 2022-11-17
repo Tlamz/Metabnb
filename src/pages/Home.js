@@ -12,7 +12,7 @@ import king5 from "./../images/desert-king5.png";
 import king6 from "./../images/desert-king6.png";
 import king7 from "./../images/desert-king7.png";
 import king8 from "./../images/desert-king8.png";
-import king  from "./../images/king.jpg";
+import kingicon  from "./../images/kingicon.jpg";
 import star from "./../images/star.png";
 import threeimg from "./../images/three-in-one-img.png";
 import { Footer } from '../components/Footer';
@@ -21,44 +21,52 @@ import { Footer } from '../components/Footer';
 export function Home () {
     return (
       <>
-        <Header />
-        <div className="hero-section">
-          {/* < className="hero-flex"> */}
-          <div className="hero-left">
-            <h1>
-              Rent a <span>Place</span> away from <br /> <span>Home</span> in
-              the <span>Metaverse</span>
-            </h1>
-            <p>
-              we provide you access to luxury and affordable houses <br /> in
-              the metaverse, get a chance to turn your <br />
-              imagination to reality at your comfort zone
-            </p>
-            <form action="">
-              <div>
-                <input
-                  className="input-search"
-                  type="text"
-                  placeholder="Search for location"
-                />
-                <input className="input-submit" type="submit" value="Search" />
-              </div>
-            </form>
-          </div>
-          <div className="hero-right">
-            <img className="hero-image" src={image} alt="" />
+        <header className="header-wrapper">
+          <Header />
+        </header>
+        <div className="hero-container">
+          <div className="hero-section">
+            {/* < className="hero-flex"> */}
+            <div className="hero-left">
+              <h1>
+                Rent a <span>Place</span> away from <br /> <span>Home</span> in
+                the <span>Metaverse</span>
+              </h1>
+              <p>
+                we provide you access to luxury and affordable houses <br /> in
+                the metaverse, get a chance to turn your <br />
+                imagination to reality at your comfort zone
+              </p>
+              <form action="">
+                <div>
+                  <input
+                    className="input-search"
+                    type="text"
+                    placeholder="Search for location"
+                  />
+                  <input
+                    className="input-submit"
+                    type="submit"
+                    value="Search"
+                  />
+                </div>
+              </form>
+            </div>
+            <div className="hero-right">
+              <img className="hero-image" src={image} alt="" />
+            </div>
           </div>
         </div>
         <div className="coins-section">
           <div className="coins">
             <div>
-              <img src={tokenimg} alt="" />
+              <img className="coins_img" src={tokenimg} alt="" />
             </div>
             <div>
-              <img src={metamaskimg} alt="" />
+              <img className="coins_img" src={metamaskimg} alt="" />
             </div>
             <div>
-              <img src={openseaimg} alt="" />
+              <img className="coins_img" src={openseaimg} alt="" />
             </div>
           </div>
         </div>
@@ -70,7 +78,7 @@ export function Home () {
             <div className="location-container">
               <div className="location-boxes">
                 <div>
-                  <img className="king1" src={king} alt="" />
+                  <img className="king1" src={kingicon} alt="" />
                 </div>
                 <div className="location-text">
                   <p>Desert King</p>
@@ -204,22 +212,23 @@ export function Home () {
             <div className="nfts-left">
               <h3>Metabnb NFTs</h3>
               <div>
-                <p className='nfts-subtext'>
-                  Discover our NFT gift cards collection. Loyal <br /> customers gets
-                  amazing gift cards which are <br /> traded as NFTs. These NFTs gives
-                  our cutomer <br /> access to loads of our exclusive services.
+                <p className="nfts-subtext">
+                  Discover our NFT gift cards collection. Loyal <br /> customers
+                  gets amazing gift cards which are <br /> traded as NFTs. These
+                  NFTs gives our cutomer <br /> access to loads of our exclusive
+                  services.
                 </p>
               </div>
               <div>
-                <button className='nfts-btn'>Learn more</button>
+                <button className="nfts-btn">Learn more</button>
               </div>
             </div>
             <div className="nfts-right">
-                <img src={threeimg} alt="" />
+              <img src={threeimg} alt="" />
             </div>
           </div>
         </div>
-        <Footer/>
+        <Footer />
       </>
     );
 }
