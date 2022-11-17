@@ -4,7 +4,6 @@ import image from "./../images/hero-image.png"
 import tokenimg from "./../images/mb-token.svg";
 import metamaskimg from "./../images/metamask.svg";
 import openseaimg from "./../images/opensea.svg";
-import king1 from "./../images/desert-king1.png";
 import king2 from "./../images/desert-king2.png";
 import king3 from "./../images/desert-king3.png";
 import king4 from "./../images/desert-king4.png";
