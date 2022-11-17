@@ -499,6 +499,10 @@ h1 {
   .header-section {
   width: 95%;
 }
+
+.header-list ul {
+  gap: 2rem;
+}
   
   .hero-section {
     display: block;
@@ -528,9 +532,16 @@ h1 {
 }
 }
 
+@media screen and (max-width: 930px) {
+.header-list ul {
+  display: none;
+}
+}
+
+
 @media screen and (max-width: 768px) {
 .header-list ul {
-  display: block;
+  display: none;
 }
 
 .input-search {
@@ -587,15 +598,42 @@ h1 {
     outline: none;
     padding: 0.7em 0.8em;
 }
+}
 
+@media screen and (max-width: 600px) {
+ .header-flex div img {
+   width: 85%;
+ }
 
+ .header-button {
+    width: 150px;
+ }
+
+ .input-search {
+    width: 36%;
+    margin-left: 4em;
+}
+}
+
+@media screen and (max-width: 550px) {
+ .input-search {
+   border-radius: 8px;
+    width: 80%;
+    margin-left: 4em
+}
+
+.input-submit {
+   border-radius: 8px;
+    width: 80%;
+    margin-left: 3.5em;
+    margin-top: 1rem;
+}
 }
 
 
+
 @media screen and (max-width: 425px) {
-  .header-flex {
-    display: block;
-  }
+
 
   .header-list {
         margin: 1em;
@@ -681,3 +719,14 @@ h1 {
 }
 
 }
+
+@media screen and (max-width: 375px) {
+ .header-flex div img {
+   width: 80%;
+ }
+
+ .header-button {
+    width: 120px;
+    font-size: .9rem;
+}
+ }
